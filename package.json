@@ -1,6 +1,6 @@
 {
   "name": "fis-nm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于fis的前端解决方案",
   "main": "index.js",
   "bin": {
@@ -21,7 +21,7 @@
   ],
   "author": {
     "name": "听着情歌流泪",
-    "email" : "develop@lingtal.com"
+    "email": "develop@lingtal.com"
   },
   "license": "BSD",
   "dependencies": {
@@ -35,7 +35,7 @@
     "fis3-postpackager-loader": ">1.3.3",
     "fis-prepackager-auto-pack": ">0.0.2",
     "fis3-hook-module": ">1.1.1",
-    "nm-command-server" : ">0.0.1"
+    "nm-command-server": ">0.0.1"
   },
   "ignore": [
     "**/.*",
