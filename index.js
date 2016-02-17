@@ -1,6 +1,6 @@
 var fis = module.exports =  require('fis3');
 //fis.require.prefixes.unshift('nm');
-fis.require.prefixes = ['bobo', 'fis','fis3'];
+fis.require.prefixes = ['nm', 'fis', 'fis3'];
 fis.cli.help.commands = ['server'];
 fis.cli.name = 'nm';
 fis.cli.info = require('./package.json');
