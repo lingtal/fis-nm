@@ -1,6 +1,6 @@
 {
   "name": "fis-nm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "基于fis的前端解决方案",
   "main": "index.js",
   "bin": {
@@ -38,10 +38,6 @@
     "nm-command-server": ">0.0.1"
   },
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "**/.*"
   ]
 }
