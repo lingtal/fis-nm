@@ -1,6 +1,6 @@
 {
   "name": "fis-nm",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "基于fis的前端解决方案",
   "main": "index.js",
   "bin": {
@@ -17,7 +17,7 @@
     "fis",
     "fis3",
     "nmtree",
-    "nm"
+    "lingtal"
   ],
   "author": {
     "name": "听着情歌流泪",
@@ -25,17 +25,22 @@
   },
   "license": "BSD",
   "dependencies": {
-    "fis3": ">3.2.6",
+    "fis3": ">3.3.12",
     "liftoff": ">2.1.0",
     "minimist": ">1.1.1",
+    "fis3-parser-rem":"0.0.4",
     "fis3-parser-node-sass": ">0.1.8",
+    "fis-parser-less-2.x":">0.1.4",
     "fis3-deploy-local-supply": "0.0.1",
     "fis3-server-php": ">=0.0.3",
     "fis3-deploy-replace": ">1.0.1",
     "fis3-postpackager-loader": ">1.3.3",
     "fis-prepackager-auto-pack": ">0.0.2",
     "fis3-hook-module": ">1.1.1",
-    "nm-command-server": ">0.0.1"
+    "nm-command-server": ">0.0.1",
+    "nm-deploy-http-push" : ">0.0.2",
+    "moment":"2.13.0",
+    "bash-color":"0.0.4"
   },
   "ignore": [
     "**/.*"
