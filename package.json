@@ -39,7 +39,7 @@
     "fis3-hook-module": ">1.1.1",
     "nm-command-server": ">0.0.1",
     "nm-deploy-http-push" : ">0.0.2",
-    "moment":"2.13.0",
+    "moment":">2.19.3",
     "bash-color":"0.0.4"
   },
   "ignore": [
